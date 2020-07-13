@@ -64,8 +64,9 @@ function App() {
           </button>
         </div>
         <div className="quarterButtons">
-          <button className="quarterButton_increase"
-            onClick ={newQuarter}> Quarter
+          <button className="quarterButton_plus" onClick={newQuarter}>
+            {" "}
+            Quarter
           </button>
         </div>
       </section>
