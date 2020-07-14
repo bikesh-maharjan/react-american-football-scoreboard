@@ -65,7 +65,6 @@ function App() {
         </div>
         <div className="quarterButtons">
           <button className="quarterButton_plus" onClick={newQuarter}>
-            {" "}
             Quarter
           </button>
         </div>
